@@ -51,7 +51,7 @@ const Login = () => {
                         <img className="w-[500px] rounded-md" src={img}  alt="" />
                     </div>
                     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                        <form className="card-body hidden">
+                        <form className="card-body ">
                             <span>Email : </span>
                             <div className="form-control">
 
