@@ -1,0 +1,23 @@
+[33mcf58fc0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m authentication and others code updated
+[33m4f5852c[m update
+[33mce3cfac[m essential all function are completed with unit tested
+[33m070115c[m blog impression, like, and comments accomplished with full functionality
+[33m4d84fcc[m blog page designed
+[33m3750126[m mannage volunteers, manage all request, volunteers dashboard updated, manage request(volunteer), send message to admin (volunter) accomplished with full functionality
+[33m6c49b43[m admin routes, manage users page complete with full access
+[33m80b3fb2[m Blood, division, district, upazila and other profile information upadate added
+[33mae78e39[m some conditional functional added
+[33m585324e[m react helmet, google login with user data updated
+[33m08917d6[m authorized user verification, volunteer verification, admin verification, email verification, reset password complete
+[33m1b2294c[m profile update with percentages
+[33mba14e76[m dynamic user search by email or uid and dynamic request search by requestId or requestSerialNumber
+[33m9799704[m all Date sorted latest to olded ,  trasnition animation hook creation , my requst page not accepted and accepted data, my acceptation data sections are completed
+[33m7fd6acf[m My recent 3 request and my all request page designed and fully complete with func
+[33md1e61cd[m create a new request page designed with functions
+[33m0a93572[m Profile Page setup complete
+[33m51016b4[m user authentication and dashboard Designed
+[33m0ce4148[m blog page and user dashboard layout designed
+[33me48435e[m Home page featured section created
+[33mb532bbd[m navbar and banner section finished with responsive
+[33mf102601[m  Inital file setup done
+[33mdb35770[m Basic Initial setup
