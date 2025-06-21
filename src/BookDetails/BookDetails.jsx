@@ -10,6 +10,7 @@ const BookDetails = () => {
   const [book, setBook] = useState(null);
   const [loading, setLoading] = useState(true);
 
+
   console.log(book)
   // Modal state
   const [showBorrowModal, setShowBorrowModal] = useState(false);
@@ -49,6 +50,10 @@ const BookDetails = () => {
 
     if (isAlreadyBorrowed) {
       Swal.fire("This book already borrowed");
+      return;
+    }
+    if (!user) {
+      Swal.fire("Please create an account to borrow books");
       return;
     }
 
