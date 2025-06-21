@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { AuthContext } from '../Providers/AuthProvider';
 import { useNavigate } from 'react-router-dom';
 import { FaGoogle } from 'react-icons/fa';
+import Swal from 'sweetalert2';
 
 const GoogleSIgnIn = () => {
 
@@ -28,6 +29,15 @@ const GoogleSIgnIn = () => {
                 profileImage: user.photoURL || "https://randomuser.me/api/portraits/lego/1.jpg", // fallback image
             };
 
+
+            Swal.fire({
+                  position: "top-end",
+                  icon: "success",
+                  title: "Logged in successfully",
+                  showConfirmButton: false,
+                  timer: 1500
+                });
+
             // Store student info to localStorage
             localStorage.setItem('student', JSON.stringify(student));
 
@@ -37,6 +47,7 @@ const GoogleSIgnIn = () => {
             } else {
                 navigate('/profile');
             }
+
         } catch (error) {
             console.error('Google login failed:', error);
             alert('Google Sign-In failed. Please try again.');
